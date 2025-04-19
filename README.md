@@ -22,3 +22,6 @@
 - Composite:
     - Propósito: permite componer objetos en estructuras de árbol y trabajar con esas estructuras como si fueran objetos
       individuales.
+- Diagrama de Clases
+  - Clases, relaciones de composición y herencia.
+  - Nunca "cajitas vacías" sin comportamiento. Siempre con al menos el método polimórfico.
