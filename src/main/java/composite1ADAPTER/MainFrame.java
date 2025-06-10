@@ -1,4 +1,4 @@
-package composite1;
+package composite1ADAPTER;
 
 import javax.swing.*;
 

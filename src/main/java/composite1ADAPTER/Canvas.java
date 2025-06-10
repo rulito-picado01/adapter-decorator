@@ -1,4 +1,4 @@
-package composite1;
+package composite1ADAPTER;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,9 +18,9 @@ class Canvas extends JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics2D g2d = (Graphics2D) g;
-
+        Panel panel = new PanelAdaptado(g2d);
         for (Figura figura : figuras) {
-            figura.dibujar(g2d);
+            figura.dibujar(panel);
         }
     }
 }
